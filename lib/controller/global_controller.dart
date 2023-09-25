@@ -50,6 +50,7 @@ class GlobalController extends GetxController {
       //update latitude and longitude
       _lattitude.value = value.latitude;
       _longitude.value = value.longitude;
+      _isLoading.value = false;
     });
   }
 }
