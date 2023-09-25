@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		8+unvVg8IuKjx9vqmbUFwRKy6iQ=
+		QwaaaInXtbv+Dk1iDTKdxeBl4do=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		iCwrMoDJ3gPfY4V4PFqgc64+RQY=
+		UM7mXltrwhQzJrsMP0+0snj76ss=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		RIAilnlOaIQ4G5me//hYHoX0dxY=
+		AFwBWBFtr0YWwnlucxQ7KPS8ZD4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/clouds.png</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		ivma1drSbf7rZOieMp3b3uPvf+w=
+		33vIVgTTqXACfoUnQ9vJo8zbWW0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -264,9 +264,33 @@
 		<data>
 		nMTZkkm9uooDDa8A2YJSyK73oP8=
 		</data>
+		<key>Frameworks/geocoding_ios.framework/Info.plist</key>
+		<data>
+		dUH6ElgbfoLM9Z0VcHQbtrWfksk=
+		</data>
+		<key>Frameworks/geocoding_ios.framework/_CodeSignature/CodeResources</key>
+		<data>
+		zsZj8orV8Q7d/GiG2dmyYdzJWX4=
+		</data>
+		<key>Frameworks/geocoding_ios.framework/geocoding_ios</key>
+		<data>
+		GD5noRGxYsijPgZTR/1EBeCv36s=
+		</data>
+		<key>Frameworks/geolocator_apple.framework/Info.plist</key>
+		<data>
+		oHu0cfKUFxxeN1lkYamQLhZSFYs=
+		</data>
+		<key>Frameworks/geolocator_apple.framework/_CodeSignature/CodeResources</key>
+		<data>
+		EtvJ+A9xu8uar4MvtxmBno43/68=
+		</data>
+		<key>Frameworks/geolocator_apple.framework/geolocator_apple</key>
+		<data>
+		Ef7ntGOb670tqqBGnSl3CHOiEoQ=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		X4vMo5Q9TN8XE5Tca8BzEkl9jvk=
+		Q2uP5b8O1Mez5Y06sHvA0uShqdM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -349,7 +373,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LO7ajER4B19LaKxdza3Z9xkV7pVJVbw8rFazJxsFXts=
+			52WrWKEyHSxeTQd20a5nBxswDr0qXA6MSVYzIBFqGXQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -363,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hpEuZVTsan3DxHZLHCGVXkXUb4AdbUOwjclaUPB8qog=
+			8WTh5ZPmfk6q/HPslIB6Gg1RUaDsXpTHuMR5ZOaJed0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -391,7 +415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4szPdS0AD7JLMyAxOIXKRO6ASL7TphOPzbz+/rCD8o=
+			3RNlkK9wFCK2Vp3cKrC4yIrAqC5ehsS38fpqamEaCLA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/icons/clouds.png</key>
@@ -559,7 +583,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EkmNp0yG2nksSHHSBzNkcJJZkyBOSVcGsYrhhldkBgw=
+			Fp+R+1wu6eDthhHtVZ9Sp3G6r4J9Nblh4xiV2SZTCDM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -728,6 +752,48 @@
 			<key>hash2</key>
 			<data>
 			rETMw/Yb9jC7IPuAQ9hs/kyJldBrRgCEQA20XXBJezA=
+			</data>
+		</dict>
+		<key>Frameworks/geocoding_ios.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dcsy2XVur3OncvPqNrrcjnWXjDU+QjrnSaICwaXw3V4=
+			</data>
+		</dict>
+		<key>Frameworks/geocoding_ios.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sXw1xPmuQ/BBb/wmSD1VB56v/b7+wIAjLT/gUpqKbJY=
+			</data>
+		</dict>
+		<key>Frameworks/geocoding_ios.framework/geocoding_ios</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fI9shtxCa7jlMa8FAIXxMr8An/3YEJVaqrieqbXDRrY=
+			</data>
+		</dict>
+		<key>Frameworks/geolocator_apple.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r7jcRAUrKEfLhLydlDuEEUwb+nYSAbm2utLsrhGYhuU=
+			</data>
+		</dict>
+		<key>Frameworks/geolocator_apple.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			coR1wRKfFojlSHir3M3odcI/ixTjD3I1gRZ/YbebzTM=
+			</data>
+		</dict>
+		<key>Frameworks/geolocator_apple.framework/geolocator_apple</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nMNmlA9AkQ9No6DylsoubPRebD+cbOFaTiOCCVqnWZk=
 			</data>
 		</dict>
 	</dict>

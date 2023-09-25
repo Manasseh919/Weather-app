@@ -4,8 +4,8 @@ import 'package:get/get.dart';
 class GlobalController extends GetxController {
   //create various variables
   final RxBool _isLoading = true.obs;
-  final RxDouble _lattitude = 0.0.obs;
-  final RxDouble _longitude = 0.0.obs;
+  final RxDouble _lattitude = 5.693599868382218.obs;
+  final RxDouble _longitude = 0.19866791549114426.obs;
 
   //instance for them to be called
   RxBool checkLoading() => _isLoading;
