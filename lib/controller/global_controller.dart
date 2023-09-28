@@ -6,8 +6,9 @@ import 'package:weatherapp_starter_project/model/weather_data.dart';
 class GlobalController extends GetxController {
   //create various variables
   final RxBool _isLoading = true.obs;
-  final RxDouble _lattitude = 5.6037.obs;
-  final RxDouble _longitude = 0.1870.obs;
+  final RxDouble _lattitude = 0.0.obs;
+  final RxDouble _longitude = 0.0.obs;
+    final RxInt _currentIndex = 0.obs;
 
   //instance for them to be called
   RxBool checkLoading() => _isLoading;
@@ -66,5 +67,8 @@ class GlobalController extends GetxController {
         _isLoading.value = false;
       });
     });
+  }
+   RxInt getIndex() {
+    return _currentIndex;
   }
 }
