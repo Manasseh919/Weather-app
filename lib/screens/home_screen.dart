@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/instance_manager.dart';
 import 'package:weatherapp_starter_project/controller/global_controller.dart';
 import 'package:weatherapp_starter_project/widgets/current_weather_widget.dart';
+import 'package:weatherapp_starter_project/widgets/daily_data_forecast.dart';
 import 'package:weatherapp_starter_project/widgets/header_widget.dart';
 import 'package:weatherapp_starter_project/widgets/hourly_data_widget.dart';
 
@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: CircularProgressIndicator(),
               )
             : Center(
-              child: ListView(
+                child: ListView(
                   scrollDirection: Axis.vertical,
                   children: [
                     const SizedBox(
@@ -38,12 +38,21 @@ class _HomeScreenState extends State<HomeScreen> {
                     const HeaderWidget(),
                     //for the current temperature
                     CurrentWeatherWidget(
-                      weatherDataCurrent: globalController.getData().getCurrentWeather(),
+                      weatherDataCurrent:
+                          globalController.getData().getCurrentWeather(),
                     ),
-                    HourlyDataWidget(weatherDataHourly: globalController.getData().getHourlyWeather(),),
+                    HourlyDataWidget(
+                      weatherDataHourly:
+                          globalController.getData().getHourlyWeather(),
+                    ),
+                    DailyDataForecast(
+                      weatherDataDaily:
+                          globalController.getData().getDailyWeather(),
+                    ),
                   ],
                 ),
-            ))),
+              ))
+              ),
       ),
     ));
   }
